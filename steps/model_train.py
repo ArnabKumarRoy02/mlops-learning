@@ -2,7 +2,7 @@ import logging
 import pandas as pd
 from zenml import step
 from sklearn.base import RegressorMixin
-from src.model_dev import LinearRegressionModel
+from model.model_dev import LinearRegressionModel
 from .config import ModelNameConfig
 @step
 def train_model(

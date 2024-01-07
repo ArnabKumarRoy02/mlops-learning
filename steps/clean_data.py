@@ -3,7 +3,7 @@ import pandas as pd
 from zenml import step
 from typing import Tuple
 from typing_extensions import Annotated
-from src.data_cleaning import DataCleaning, DataDivideStrategy, DataPreprocessingStrategy
+from model.data_cleaning import DataCleaning, DataDivideStrategy, DataPreprocessingStrategy
 
 @step
 def clean_df(df: pd.DataFrame) -> Tuple[

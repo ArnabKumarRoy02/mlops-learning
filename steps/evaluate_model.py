@@ -1,7 +1,7 @@
 import logging
 import pandas as pd
 from zenml import step
-from src.evaluation import MSE, R2, RMSE
+from model.evaluation import MSE, R2, RMSE
 from sklearn.base import RegressorMixin
 from typing import Tuple
 from typing_extensions import Annotated
