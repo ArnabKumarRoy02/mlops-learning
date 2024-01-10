@@ -1,2 +1,6 @@
 .DS_Store
 steps/__pycache__/
+__pycache__/
+mlruns/.trash/
+model/__pycache__/
+pipelines/__pycache__/
